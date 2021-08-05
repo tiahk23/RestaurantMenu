@@ -11,7 +11,7 @@ namespace RestaurantMenu
         public double Price { get; set; }
         public string Description { get; set; }
         public string Catagory { get; set; }
-        public bool IsNew { get; set}
+        public bool IsNew { get; set; }
 
         public MenuItem(double price, string description, string catagory, bool isNew)
         {
